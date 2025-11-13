@@ -17,14 +17,30 @@
   background-color: var(--background);
 }
 
+/* route  */
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* link button */
+.link-dot {
+  border: #000000;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 20px;
+}
+
 .main {
   display: flex;
   min-height: 100vh;
   width: 100%;
   max-width: 800px;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
+  /* justify-content: space-between; */
   background-color: var(--foreground);
   padding: 120px 60px;
 }
